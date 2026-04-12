@@ -106,7 +106,7 @@ def find_and_resolve_duplicates():
     duplicates_dir = os.path.join(script_dir, "duplicates-smaller_size")
 
     # Single persistent log file, opened in append mode
-    log_path = os.path.join(script_dir, "log.txt")
+    log_path = os.path.join(script_dir, "log-find_duplicates.txt")
     tee = Tee(log_path)
     sys.stdout = tee
 
