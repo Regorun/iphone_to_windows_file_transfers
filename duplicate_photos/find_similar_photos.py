@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+
 Similar Photo Finder
 --------------------
 Scans the folder it lives in (and all subfolders) for visually similar photos.
